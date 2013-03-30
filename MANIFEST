@@ -1,8 +1,12 @@
-MANIFEST
-Makefile.PL
 ChangeLog
+lib/LWPx/ParanoidAgent.pm
 lib/LWPx/Protocol/http_paranoid.pm
 lib/LWPx/Protocol/https_paranoid.pm
-lib/LWPx/ParanoidAgent.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+rebuild.sh
 t/00-all.t
-META.yml                                 Module meta-data (added by MakeMaker)
+t/30-mirror.t
+META.json                                Module JSON meta-data (added by MakeMaker)
