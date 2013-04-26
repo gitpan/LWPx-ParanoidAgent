@@ -3,7 +3,7 @@ require LWP::UserAgent;
 
 use vars qw(@ISA $VERSION);
 @ISA = qw(LWP::UserAgent);
-$VERSION = '1.08';
+$VERSION = '1.08_01';
 
 require HTTP::Request;
 require HTTP::Response;
@@ -566,6 +566,10 @@ http://contributing.appspot.com/lwpx-paranoidagent
 http://brad.livejournal.com/2409049.html
 https://github.com/collectiveintel/LWPx-ParanoidAgent
 http://search.cpan.org/dist/LWPx-ParanoidAgent
+
+=head1 ISSUES
+
+Report issues: https://github.com/collectiveintel/LWPx-ParanoidAgent/issues
 
 =head1 WARRANTY
 
