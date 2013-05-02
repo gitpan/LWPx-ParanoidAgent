@@ -38,6 +38,15 @@
          }
       }
    },
-   "release_status" : "testing",
-   "version" : "1.08_02"
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/collectiveintel/lwpx-paranoidagent/issues"
+      },
+      "homepage" : "https://github.com/collectiveintel/LWPx-ParanoidAgent",
+      "repository" : {
+         "url" : "https://github.com/collectiveintel/LWPx-ParanoidAgent.git"
+      }
+   },
+   "version" : "1.09"
 }

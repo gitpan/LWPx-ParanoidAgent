@@ -21,4 +21,8 @@ requires:
   LWP::UserAgent: 0
   Net::DNS: 0
   Time::HiRes: 0
-version: 1.08_02
+resources:
+  bugtracker: https://github.com/collectiveintel/lwpx-paranoidagent/issues
+  homepage: https://github.com/collectiveintel/LWPx-ParanoidAgent
+  repository: https://github.com/collectiveintel/LWPx-ParanoidAgent.git
+version: 1.09
