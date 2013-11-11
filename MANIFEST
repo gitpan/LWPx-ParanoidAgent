@@ -1,3 +1,4 @@
+.travis.yml
 ChangeLog
 lib/LWPx/ParanoidAgent.pm
 lib/LWPx/Protocol/http_paranoid.pm
@@ -5,8 +6,15 @@ lib/LWPx/Protocol/https_paranoid.pm
 Makefile.PL
 MANIFEST			This list of files
 README
+README.md
 rebuild.sh
 t/00-all.t
 t/30-mirror.t
+t/40-largefiles.t
+testdata/19200.txt
+testdata/20480.txt
+testdata/40960.txt
+testdata/512.txt
+testdata/small.txt
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)

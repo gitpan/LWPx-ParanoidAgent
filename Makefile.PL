@@ -3,15 +3,16 @@ WriteMakefile(
     'NAME'          => 'LWPx::ParanoidAgent',
     'VERSION_FROM'  => 'lib/LWPx/ParanoidAgent.pm',
     'PREREQ_PM'		=> {
-        'LWP::UserAgent' => 0,
-        'Net::DNS'       => 0,
-        'Time::HiRes'    => 0,
+        'LWP::UserAgent'    => 0,
+        'Net::DNS'          => 0,
+        'Time::HiRes'       => 0,
+        'Net::SSL'          => '2.85'
     },
     'META_MERGE'  => {
         "resources"   => {
-            "repository"    => 'https://github.com/collectiveintel/LWPx-ParanoidAgent.git',
-            "bugtracker"    => 'https://github.com/collectiveintel/lwpx-paranoidagent/issues',
-            "homepage"      => 'https://github.com/collectiveintel/LWPx-ParanoidAgent',
+            "repository"    => 'https://github.com/csirtgadgets/LWPx-ParanoidAgent.git',
+            "bugtracker"    => 'https://github.com/csirtgadgets/lwpx-paranoidagent/issues',
+            "homepage"      => 'https://github.com/csirtgadgets/LWPx-ParanoidAgent',
         },
     },
     (

@@ -3,7 +3,7 @@ require LWP::UserAgent;
 
 use vars qw(@ISA $VERSION);
 @ISA = qw(LWP::UserAgent);
-$VERSION = '1.09';
+$VERSION = '1.10';
 
 require HTTP::Request;
 require HTTP::Response;
@@ -12,6 +12,10 @@ use HTTP::Status ();
 use strict;
 use Net::DNS;
 use LWP::Debug ();
+require Net::SSL;
+
+# fixes https://github.com/csirtgadgets/LWPx-ParanoidAgent/issues/4
+$Net::HTTPS::SSL_SOCKET_CLASS = 'Net::SSL';
 
 sub new {
     my $class = shift;

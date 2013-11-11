@@ -4,7 +4,7 @@
       "Wes Young <wes@barely3am.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "unknown"
    ],
@@ -22,31 +22,32 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "LWP::UserAgent" : 0,
-            "Net::DNS" : 0,
-            "Time::HiRes" : 0
+            "LWP::UserAgent" : "0",
+            "Net::DNS" : "0",
+            "Net::SSL" : "2.85",
+            "Time::HiRes" : "0"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/collectiveintel/lwpx-paranoidagent/issues"
+         "web" : "https://github.com/csirtgadgets/lwpx-paranoidagent/issues"
       },
-      "homepage" : "https://github.com/collectiveintel/LWPx-ParanoidAgent",
+      "homepage" : "https://github.com/csirtgadgets/LWPx-ParanoidAgent",
       "repository" : {
-         "url" : "https://github.com/collectiveintel/LWPx-ParanoidAgent.git"
+         "url" : "https://github.com/csirtgadgets/LWPx-ParanoidAgent.git"
       }
    },
-   "version" : "1.09"
+   "version" : "1.10"
 }
